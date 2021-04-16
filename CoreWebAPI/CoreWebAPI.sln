@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebAPI", "CoreWebAPI.csproj", "{6FC4DD24-9E6D-40C6-AF3E-1E99B7D8903A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPI.Data.Persistence", "..\CoreWebAPI.Data.Persistence\CoreWebAPI.Data.Persistence.csproj", "{6D267927-8ACA-4740-BDC4-64931889EFB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebAPI.Data.Persistence", "..\CoreWebAPI.Data.Persistence\CoreWebAPI.Data.Persistence.csproj", "{6D267927-8ACA-4740-BDC4-64931889EFB9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPI.Data.Models", "..\CoreWebAPI.Data.Models\CoreWebAPI.Data.Models.csproj", "{981CD04E-83E0-40F3-B3E4-99A17EE27061}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebAPI.Data.Models", "..\CoreWebAPI.Data.Models\CoreWebAPI.Data.Models.csproj", "{981CD04E-83E0-40F3-B3E4-99A17EE27061}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPI.Utilities", "..\CoreWebAPI.Utilities\CoreWebAPI.Utilities.csproj", "{0EB1EBD7-38DD-448F-94CF-A03AD563483C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebAPI.Utilities", "..\CoreWebAPI.Utilities\CoreWebAPI.Utilities.csproj", "{0EB1EBD7-38DD-448F-94CF-A03AD563483C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPI.Security", "..\CoreWebAPI.Security\CoreWebAPI.Security.csproj", "{39BB5A82-376D-47E5-B8AE-096BD6D7F8A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebAPI.Security", "..\CoreWebAPI.Security\CoreWebAPI.Security.csproj", "{39BB5A82-376D-47E5-B8AE-096BD6D7F8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreWebAPI.Domain", "..\CoreWebAPI.Domain\CoreWebAPI.Domain.csproj", "{1F039B12-DC7A-4901-AB5B-047EE320C786}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{39BB5A82-376D-47E5-B8AE-096BD6D7F8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39BB5A82-376D-47E5-B8AE-096BD6D7F8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39BB5A82-376D-47E5-B8AE-096BD6D7F8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F039B12-DC7A-4901-AB5B-047EE320C786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F039B12-DC7A-4901-AB5B-047EE320C786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F039B12-DC7A-4901-AB5B-047EE320C786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F039B12-DC7A-4901-AB5B-047EE320C786}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

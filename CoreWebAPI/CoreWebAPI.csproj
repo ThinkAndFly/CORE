@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\CoreWebAPI.Data.Models\CoreWebAPI.Data.Models.csproj" />
     <ProjectReference Include="..\CoreWebAPI.Data.Persistence\CoreWebAPI.Data.Persistence.csproj" />
+    <ProjectReference Include="..\CoreWebAPI.Domain\CoreWebAPI.Domain.csproj" />
     <ProjectReference Include="..\CoreWebAPI.Utilities\CoreWebAPI.Utilities.csproj" />
   </ItemGroup>
 
